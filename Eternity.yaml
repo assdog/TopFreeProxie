@@ -5,98 +5,97 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 JP-2|免费|1x, server: 9.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top, port: 8880, type: vmess, uuid: 39771343-ecd5-4c22-b5d5-1245f1ce8125, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpppp.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
+  - {name: 🇯🇵 JP-1|免费|1x, server: 8.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top, port: 2095, type: vmess, uuid: 39771343-ecd5-4c22-b5d5-1245f1ce8125, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpppp.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
   - {name: 🇭🇰 香港_0618009, server: 156.245.8.224, port: 49823, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: JP_149.50.71.124_0618202337dc-992trojan, server: 149.50.71.124, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
-  - {name: 🇯🇵 AWS日本3, server: jp2.gsjc.cfd, port: 443, type: trojan, password: 39666941-4cb2-4ce7-8a63-f183fedfd6bb, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: "JP_youtube@资源分享师_192\r", server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: b46ff41c-21fc-4135-8aca-f9efb838fdf2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_0617069, server: awsjp10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: data.amazonwebservicess.com, skip-cert-verify: true}
   - {name: 🇭🇰 AWS香港2, server: hk1.gsjc.cfd, port: 443, type: trojan, password: 39666941-4cb2-4ce7-8a63-f183fedfd6bb, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本-解锁-3, server: jp3.yihaobao.xyz, port: 10024, type: trojan, password: 5faa256e-cfb5-4333-9691-4ebe6ae802b9, sni: tls.yihaobao.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本-解锁-1, server: jp1.yihaobao.xyz, port: 10025, type: trojan, password: 5faa256e-cfb5-4333-9691-4ebe6ae802b9, sni: tls.yihaobao.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-43.206.121.204-1912, server: jp5.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
-  - {name: 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3, server: 149.50.70.87, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_0617070, server: awsjp9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: 🇯🇵 JP-43.206.152.124-1817 2, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本 2 3, server: 54.199.41.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_0617069, server: awsjp10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: "JP_youtube@资源分享师_192\r", server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: b46ff41c-21fc-4135-8aca-f9efb838fdf2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 AWS日本3, server: jp2.gsjc.cfd, port: 443, type: trojan, password: 39666941-4cb2-4ce7-8a63-f183fedfd6bb, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 _JP_日本 4 2, server: 43.207.139.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本_0618080, server: 109.166.36.193, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 _IL_以色列->🇯🇵_JP_日本 5, server: 149.50.71.117, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: JP_149.50.71.124_0618202337dc-992trojan, server: 149.50.71.124, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3 2 2, server: 149.50.70.107, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
   - {name: 🇯🇵 日本_0618089, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0618092, server: 45.88.43.230, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_0618002, server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@herhero6}}
-  - {name: HK_149.50.84.76_061820234bab-571trojan, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: 🇯🇵 日本_0618007, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
+  - {name: 🇯🇵 JP-43.206.121.204-1912, server: jp5.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
+  - {name: 🇯🇵 日本_0617070, server: awsjp9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇯🇵 JP-43.206.152.124-1817 2, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本_0618023, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_16, server: tw99-hinet.mynodes001.one, port: 445, type: vmess, uuid: 5f04de84-6b7e-3564-82c2-d2a998002629, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK-16.162.51.238-13486, server: hk5.cnamazon.sbs, port: 443, type: trojan, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡_0618001, server: sg10.zingfast.vn, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn, headers: {Host: sg10.zingfast.vn}}}
+  - {name: HK_149.50.84.76_061820234bab-571trojan, server: hk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
   - {name: 🇭🇰 HK(AzadNet.t.me)_012, server: sky998dmit3.xyz, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 HK-16.162.51.238-13486, server: hk5.cnamazon.sbs, port: 443, type: trojan, password: 5f9a5d8c-a57b-4da6-baff-490fe4cf8d60, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_23, server: tw99-hinet.mynodes001.one, port: 445, type: vmess, uuid: 5f04de84-6b7e-3564-82c2-d2a998002629, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_0618002, server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@herhero6}}
+  - {name: 🇸🇬 新加坡_0618711, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
   - {name: 🇭🇰 _HK_香港_5, server: awshk5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
   - {name: 🇭🇰 AWS香港4, server: hk2.gsjc.cfd, port: 443, type: trojan, password: 39666941-4cb2-4ce7-8a63-f183fedfd6bb, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_0618002, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: f677fa16-164f-42f9-ad9b-7e08c53e1d3e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}}
-  - {name: 🇸🇬 新加坡_0618513, server: 92.223.116.220, port: 80, type: vmess, uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: shoooshi.ddns.net}}}
   - {name: 🇸🇬 SG(AzadNet.t.me)_011, server: awssg17-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡_0618499, server: 92.223.116.222, port: 80, type: vmess, uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: xx2xxl.ddns.net}}}
-  - {name: 🇸🇬 新加坡_0618169, server: 92.223.116.209, port: 80, type: vmess, uuid: 89a151c7-9484-4e63-d921-c30245337408, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashti89.ddns.net}}}
-  - {name: 🇸🇬 新加坡_0618500, server: 92.223.116.207, port: 80, type: vmess, uuid: 3590898e-6f91-4a7b-de36-7c497d5197f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdimoghaddam02.ddns.net}}}
   - {name: 🇸🇬 新加坡_0618168, server: 92.223.116.205, port: 80, type: vmess, uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: xx2xxl.ddns.net}}}
   - {name: 🇸🇬 新加坡_0618514, server: 92.223.116.221, port: 80, type: vmess, uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mrfiltering.ddns.net}}}
+  - {name: 🇸🇬 新加坡_0618499, server: 92.223.116.222, port: 80, type: vmess, uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: xx2xxl.ddns.net}}}
+  - {name: 🇸🇬 新加坡_0618002, server: v2ray2.udpgw.com, port: 443, type: vmess, uuid: f677fa16-164f-42f9-ad9b-7e08c53e1d3e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}}
+  - {name: 🇸🇬 新加坡_0618500, server: 92.223.116.207, port: 80, type: vmess, uuid: 3590898e-6f91-4a7b-de36-7c497d5197f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdimoghaddam02.ddns.net}}}
   - {name: 🇸🇬 新加坡_0618808, server: 92.223.116.224, port: 80, type: vmess, uuid: 44c5de7f-0be4-4e96-c73c-f4c94c15e8af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: parasto01.ddns.net}}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_15 |28.23Mb, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_0618711, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
-  - {name: 🇨🇳 台湾_0618001, server: 61.220.198.99, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0618010, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0618052, server: 150.109.24.15, port: 27917, type: vmess, uuid: 975024ba-72fb-4508-8978-7ef413b0b3a4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本【付费推荐：https//tt.vg/vip】146, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_0618513, server: 92.223.116.220, port: 80, type: vmess, uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: shoooshi.ddns.net}}}
+  - {name: 🇸🇬 新加坡_0618169, server: 92.223.116.209, port: 80, type: vmess, uuid: 89a151c7-9484-4e63-d921-c30245337408, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashti89.ddns.net}}}
   - {name: HK_youtube@资源分享师_128, server: hk1.looooooongnet.lol, port: 443, type: vmess, uuid: 04fcb7df-f533-4ad0-9b02-56cef44c7903, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.looooooongnet.lol}}}
-  - {name: 🇸🇬 新加坡_0618007, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0618076, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_22 |28.23Mb, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_0618052, server: 150.109.24.15, port: 27917, type: vmess, uuid: 975024ba-72fb-4508-8978-7ef413b0b3a4, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_0618155, server: 27.124.45.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇰🇷 22,23|🇰🇷 韩国|@ripaojiedian", server: jieyucv.top, port: 22727, type: vmess, uuid: 675e1432-6a1e-45b7-a591-2f06cc265b1a, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇸 美国_06185623, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}}
-  - {name: 🇺🇸 美国_06181049, server: 172.247.148.82, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_0618010, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_0618233, server: 59.29.229.160, port: 30008, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}}
+  - {name: 🇨🇳 台湾_0618001, server: 61.220.198.99, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618086, server: 23.225.117.50, port: 49231, type: vmess, uuid: bb25859e-f6da-4101-989f-b4dd67a22682, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618102, server: 172.247.67.45, port: 50035, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0618144, server: 172.247.148.88, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618214, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06181049, server: 172.247.148.82, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06181039, server: 140.99.148.53, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618548, server: 172.67.170.154, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}}
+  - {name: 🇺🇸 美国_0618259, server: 140.99.59.226, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618123, server: 64.32.20.101, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_06181107, server: 45.92.160.142, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618460, server: 140.99.140.150, port: 57112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618730, server: 45.12.144.80, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181072, server: 171.22.134.29, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181081, server: 140.99.129.234, port: 43033, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618555, server: 45.136.235.10, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618397, server: 45.92.160.21, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181035, server: 45.12.112.82, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_06181096, server: 45.88.176.53, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181083, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618574, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181045, server: 140.99.129.230, port: 43033, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181094, server: 140.99.54.110, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181080, server: 137.175.57.14, port: 50040, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618134, server: 142.4.127.11, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618551, server: 198.2.218.203, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618182, server: 38.40.219.180, port: 53362, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618363, server: 142.4.104.201, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0618697, server: 45.12.112.122, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06181100, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 未知_0618006, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}}
+  - {name: 🇺🇸 美国_0618653, server: 38.54.250.58, port: 51444, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 20, server: 38.26.135.5, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618296, server: 137.175.61.130, port: 46679, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618089, server: 142.4.99.78, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618230, server: 142.4.110.23, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06186403, server: 38.26.135.6, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618748, server: 38.63.17.166, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 6, server: 192.74.228.179, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 19|_🇺🇸_US_美国_由零開始_18___, server: 104.25.254.161, port: 2053, type: vmess, uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}}
+  - {name: 🇺🇸 美国_0618257, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0618294, server: 38.63.17.176, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06181085, server: 45.12.112.117, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国_0618012, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}}
+  - {name: 🇫🇷 法国_0618001, server: 45.32.149.108, port: 2083, type: vmess, uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 45.32.149.108}}}
+  - {name: NL_149.50.75.207_061820234bab-169trojan, server: nl2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: Relay_🇮🇱IL-🇬🇧GB_17 | 9.98Mb, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
   - {name: 🇬🇧 英国_0618014, server: 83.142.225.58, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
   - {name: 🇬🇧 英国_0618015, server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0618060, server: 154.85.1.51, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
-  - {name: 白嫖-041, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false}
-  - {name: NL_149.50.75.207_061820234bab-169trojan, server: nl2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: Relay_🇮🇱IL-🇬🇧GB_12 | 9.98Mb, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰_0618007, server: 154.85.1.148, port: 53283, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false}
+  - {name: FR_156.249.18.68_0618202337dc-777vmess, server: 156.249.18.68, port: 49872, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇫🇷 法国_0618002, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇿🇦 github.com/freefq - 南非  1, server: 156.225.67.233, port: 47782, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇱 github.com/freefq - 以色列  9, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 塞舌尔_0618006, server: 154.85.0.56, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 _🇳🇱_NL_荷兰_科网_18, server: 154.84.1.79, port: 44266, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇿🇦 github.com/freefq - 南非  5, server: 156.225.67.158, port: 48812, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0618012, server: 154.85.1.169, port: 48976, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇿🇦 github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 2, server: 156.249.18.10, port: 46003, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false}
-  - {name: "DE_youtube@资源分享师_174\r", server: 84.252.121.218, port: 443, type: trojan, password: b46ff41c-21fc-4135-8aca-f9efb838fdf2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇫🇷 法国_0618021, server: 156.249.18.48, port: 51881, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 未知_06183638, server: cf.durov.ir, port: 2082, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: dedipath2.iiio.wiki}}}
-  - {name: 🇳🇱 荷兰_0618022, server: 154.85.1.239, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0618015, server: 154.85.1.88, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0618014, server: 154.85.1.144, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇱 github.com/freefq - 以色列  3, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
+  - {name: 🇳🇱 荷兰_0618007, server: 154.85.1.148, port: 53283, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618001, server: 45.32.238.111, port: 2083, type: vmess, uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 45.32.238.111}}}
+  - {name: 🇳🇱 荷兰_0618016, server: 154.85.1.137, port: 42094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 _🇳🇱_NL_荷兰_科网_18 2, server: 154.85.1.245, port: 49921, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_🇿🇦ZA-🇳🇱NL_90 |28.55Mb, server: 156.225.67.158, port: 48812, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 _NL_荷兰 3, server: 154.85.1.242, port: 45516, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇳🇱 荷兰_0618008, server: 154.85.1.218, port: 48320, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618022, server: 154.85.1.239, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
+  - {name: 塞舌尔_0618006, server: 154.85.0.56, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618012, server: 154.85.1.169, port: 48976, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618018, server: 154.85.1.151, port: 35656, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618014, server: 154.85.1.144, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618015, server: 154.85.1.88, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618060, server: 154.85.1.51, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0618013, server: 154.85.1.197, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,98 +111,97 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 JP-2|免费|1x
+      - 🇯🇵 JP-1|免费|1x
       - 🇭🇰 香港_0618009
-      - JP_149.50.71.124_0618202337dc-992trojan
-      - 🇯🇵 AWS日本3
-      - "JP_youtube@资源分享师_192\r"
-      - 🇯🇵 日本_0617069
       - 🇭🇰 AWS香港2
-      - 🇯🇵 日本-解锁-3
-      - 🇯🇵 日本-解锁-1
-      - 🇯🇵 JP-43.206.121.204-1912
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3
-      - 🇯🇵 日本_0617070
-      - 🇯🇵 JP-43.206.152.124-1817 2
+      - 🇯🇵 _JP_日本 2 3
+      - 🇯🇵 日本_0617069
+      - "JP_youtube@资源分享师_192\r"
+      - 🇯🇵 AWS日本3
+      - 🇯🇵 _JP_日本 4 2
       - 🇯🇵 日本_0618080
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 5
+      - JP_149.50.71.124_0618202337dc-992trojan
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3 2 2
       - 🇯🇵 日本_0618089
       - 🇯🇵 日本_0618092
-      - 🇰🇷 韩国_0618002
-      - HK_149.50.84.76_061820234bab-571trojan
+      - 🇯🇵 日本_0618007
+      - 🇯🇵 JP-43.206.121.204-1912
+      - 🇯🇵 日本_0617070
+      - 🇯🇵 JP-43.206.152.124-1817 2
       - 🇯🇵 日本_0618023
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_16
-      - 🇭🇰 HK-16.162.51.238-13486
       - 🇸🇬 新加坡_0618001
+      - HK_149.50.84.76_061820234bab-571trojan
       - 🇭🇰 HK(AzadNet.t.me)_012
+      - 🇭🇰 HK-16.162.51.238-13486
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_23
+      - 🇰🇷 韩国_0618002
+      - 🇸🇬 新加坡_0618711
       - 🇭🇰 _HK_香港_5
       - 🇭🇰 AWS香港4
-      - 🇸🇬 新加坡_0618002
-      - 🇸🇬 新加坡_0618513
       - 🇸🇬 SG(AzadNet.t.me)_011
-      - 🇸🇬 新加坡_0618499
-      - 🇸🇬 新加坡_0618169
-      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618168
       - 🇸🇬 新加坡_0618514
+      - 🇸🇬 新加坡_0618499
+      - 🇸🇬 新加坡_0618002
+      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618808
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_15 |28.23Mb
-      - 🇸🇬 新加坡_0618711
-      - 🇨🇳 台湾_0618001
-      - 🇨🇳 台湾_0618010
-      - 🇸🇬 新加坡_0618052
-      - 🇯🇵 日本【付费推荐：https//tt.vg/vip】146
+      - 🇸🇬 新加坡_0618513
+      - 🇸🇬 新加坡_0618169
       - HK_youtube@资源分享师_128
-      - 🇸🇬 新加坡_0618007
-      - 🇸🇬 新加坡_0618076
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_22 |28.23Mb
+      - 🇸🇬 新加坡_0618052
       - 🇸🇬 新加坡_0618155
-      - 🇰🇷 22,23|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国_06185623
-      - 🇺🇸 美国_06181049
+      - 🇨🇳 台湾_0618010
+      - 🇰🇷 韩国_0618233
+      - 🇨🇳 台湾_0618001
+      - 🇺🇸 美国_0618086
+      - 🇺🇸 美国_0618102
       - 🇺🇸 美国_0618144
+      - 🇺🇸 美国_0618214
+      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_06181039
+      - 🇺🇸 美国_0618548
+      - 🇺🇸 美国_0618259
+      - 🇺🇸 美国_0618123
       - 🇺🇸 美国_06181107
-      - 🇺🇸 美国_0618460
-      - 🇺🇸 美国_0618730
-      - 🇺🇸 美国_06181072
-      - 🇺🇸 美国_06181081
-      - 🇺🇸 美国_0618555
-      - 🇺🇸 美国_0618397
-      - 🇺🇸 美国_06181035
       - 🇺🇸 美国_06181096
-      - 🇺🇸 美国_06181083
-      - 🇺🇸 美国_0618574
-      - 🇺🇸 美国_06181045
-      - 🇺🇸 美国_06181094
-      - 🇺🇸 美国_06181080
-      - 🇺🇸 美国_0618134
-      - 🇺🇸 美国_0618551
-      - 🇺🇸 美国_0618182
-      - 🇺🇸 美国_0618363
-      - 🇺🇸 美国_0618697
-      - 🇺🇸 美国_06181100
-      - GB_07
-      - 未知_0618006
+      - 🇺🇸 美国_0618653
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 美国_0618296
+      - 🇺🇸 美国_0618089
+      - 🇺🇸 美国_0618230
+      - 🇺🇸 美国_06186403
+      - 🇺🇸 美国_0618748
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 19|_🇺🇸_US_美国_由零開始_18___
+      - 🇺🇸 美国_0618257
+      - 🇺🇸 美国_0618294
+      - 🇺🇸 美国_06181085
+      - 🇬🇧 英国_0618012
+      - 🇫🇷 法国_0618001
+      - NL_149.50.75.207_061820234bab-169trojan
+      - Relay_🇮🇱IL-🇬🇧GB_17 | 9.98Mb
       - 🇬🇧 英国_0618014
       - 🇬🇧 英国_0618015
-      - 🇳🇱 荷兰_0618060
-      - 白嫖-041
-      - NL_149.50.75.207_061820234bab-169trojan
-      - Relay_🇮🇱IL-🇬🇧GB_12 | 9.98Mb
-      - 🇳🇱 荷兰_0618007
+      - FR_156.249.18.68_0618202337dc-777vmess
       - 🇫🇷 法国_0618002
-      - 🇿🇦 github.com/freefq - 南非  1
-      - 🇮🇱 github.com/freefq - 以色列  9
-      - 塞舌尔_0618006
-      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18
-      - 🇿🇦 github.com/freefq - 南非  5
-      - 🇳🇱 荷兰_0618012
-      - 🇿🇦 github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 2
-      - "DE_youtube@资源分享师_174\r"
-      - 🇫🇷 法国_0618021
-      - 未知_06183638
-      - 🇳🇱 荷兰_0618022
-      - 🇳🇱 荷兰_0618015
-      - 🇳🇱 荷兰_0618014
+      - 🇮🇱 github.com/freefq - 以色列  3
+      - 🇳🇱 荷兰_0618007
+      - 🇳🇱 荷兰_0618001
+      - 🇳🇱 荷兰_0618016
+      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18 2
+      - Relay_🇿🇦ZA-🇳🇱NL_90 |28.55Mb
+      - 🇳🇱 _NL_荷兰 3
       - 🇳🇱 荷兰_0618008
+      - 🇳🇱 荷兰_0618022
+      - 塞舌尔_0618006
+      - 🇳🇱 荷兰_0618012
+      - 🇳🇱 荷兰_0618018
+      - 🇳🇱 荷兰_0618014
+      - 🇳🇱 荷兰_0618015
+      - 🇳🇱 荷兰_0618060
+      - 🇳🇱 荷兰_0618013
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,335 +252,332 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP-2|免费|1x
+      - 🇯🇵 JP-1|免费|1x
       - 🇭🇰 香港_0618009
-      - JP_149.50.71.124_0618202337dc-992trojan
-      - 🇯🇵 AWS日本3
-      - "JP_youtube@资源分享师_192\r"
-      - 🇯🇵 日本_0617069
       - 🇭🇰 AWS香港2
-      - 🇯🇵 日本-解锁-3
-      - 🇯🇵 日本-解锁-1
-      - 🇯🇵 JP-43.206.121.204-1912
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3
-      - 🇯🇵 日本_0617070
-      - 🇯🇵 JP-43.206.152.124-1817 2
+      - 🇯🇵 _JP_日本 2 3
+      - 🇯🇵 日本_0617069
+      - "JP_youtube@资源分享师_192\r"
+      - 🇯🇵 AWS日本3
+      - 🇯🇵 _JP_日本 4 2
       - 🇯🇵 日本_0618080
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 5
+      - JP_149.50.71.124_0618202337dc-992trojan
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3 2 2
       - 🇯🇵 日本_0618089
       - 🇯🇵 日本_0618092
-      - 🇰🇷 韩国_0618002
-      - HK_149.50.84.76_061820234bab-571trojan
+      - 🇯🇵 日本_0618007
+      - 🇯🇵 JP-43.206.121.204-1912
+      - 🇯🇵 日本_0617070
+      - 🇯🇵 JP-43.206.152.124-1817 2
       - 🇯🇵 日本_0618023
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_16
-      - 🇭🇰 HK-16.162.51.238-13486
       - 🇸🇬 新加坡_0618001
+      - HK_149.50.84.76_061820234bab-571trojan
       - 🇭🇰 HK(AzadNet.t.me)_012
+      - 🇭🇰 HK-16.162.51.238-13486
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_23
+      - 🇰🇷 韩国_0618002
+      - 🇸🇬 新加坡_0618711
       - 🇭🇰 _HK_香港_5
       - 🇭🇰 AWS香港4
-      - 🇸🇬 新加坡_0618002
-      - 🇸🇬 新加坡_0618513
       - 🇸🇬 SG(AzadNet.t.me)_011
-      - 🇸🇬 新加坡_0618499
-      - 🇸🇬 新加坡_0618169
-      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618168
       - 🇸🇬 新加坡_0618514
+      - 🇸🇬 新加坡_0618499
+      - 🇸🇬 新加坡_0618002
+      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618808
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_15 |28.23Mb
-      - 🇸🇬 新加坡_0618711
-      - 🇨🇳 台湾_0618001
-      - 🇨🇳 台湾_0618010
-      - 🇸🇬 新加坡_0618052
-      - 🇯🇵 日本【付费推荐：https//tt.vg/vip】146
+      - 🇸🇬 新加坡_0618513
+      - 🇸🇬 新加坡_0618169
       - HK_youtube@资源分享师_128
-      - 🇸🇬 新加坡_0618007
-      - 🇸🇬 新加坡_0618076
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_22 |28.23Mb
+      - 🇸🇬 新加坡_0618052
       - 🇸🇬 新加坡_0618155
-      - 🇰🇷 22,23|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国_06185623
-      - 🇺🇸 美国_06181049
+      - 🇨🇳 台湾_0618010
+      - 🇰🇷 韩国_0618233
+      - 🇨🇳 台湾_0618001
+      - 🇺🇸 美国_0618086
+      - 🇺🇸 美国_0618102
       - 🇺🇸 美国_0618144
+      - 🇺🇸 美国_0618214
+      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_06181039
+      - 🇺🇸 美国_0618548
+      - 🇺🇸 美国_0618259
+      - 🇺🇸 美国_0618123
       - 🇺🇸 美国_06181107
-      - 🇺🇸 美国_0618460
-      - 🇺🇸 美国_0618730
-      - 🇺🇸 美国_06181072
-      - 🇺🇸 美国_06181081
-      - 🇺🇸 美国_0618555
-      - 🇺🇸 美国_0618397
-      - 🇺🇸 美国_06181035
       - 🇺🇸 美国_06181096
-      - 🇺🇸 美国_06181083
-      - 🇺🇸 美国_0618574
-      - 🇺🇸 美国_06181045
-      - 🇺🇸 美国_06181094
-      - 🇺🇸 美国_06181080
-      - 🇺🇸 美国_0618134
-      - 🇺🇸 美国_0618551
-      - 🇺🇸 美国_0618182
-      - 🇺🇸 美国_0618363
-      - 🇺🇸 美国_0618697
-      - 🇺🇸 美国_06181100
-      - GB_07
-      - 未知_0618006
+      - 🇺🇸 美国_0618653
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 美国_0618296
+      - 🇺🇸 美国_0618089
+      - 🇺🇸 美国_0618230
+      - 🇺🇸 美国_06186403
+      - 🇺🇸 美国_0618748
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 19|_🇺🇸_US_美国_由零開始_18___
+      - 🇺🇸 美国_0618257
+      - 🇺🇸 美国_0618294
+      - 🇺🇸 美国_06181085
+      - 🇬🇧 英国_0618012
+      - 🇫🇷 法国_0618001
+      - NL_149.50.75.207_061820234bab-169trojan
+      - Relay_🇮🇱IL-🇬🇧GB_17 | 9.98Mb
       - 🇬🇧 英国_0618014
       - 🇬🇧 英国_0618015
-      - 🇳🇱 荷兰_0618060
-      - 白嫖-041
-      - NL_149.50.75.207_061820234bab-169trojan
-      - Relay_🇮🇱IL-🇬🇧GB_12 | 9.98Mb
-      - 🇳🇱 荷兰_0618007
+      - FR_156.249.18.68_0618202337dc-777vmess
       - 🇫🇷 法国_0618002
-      - 🇿🇦 github.com/freefq - 南非  1
-      - 🇮🇱 github.com/freefq - 以色列  9
-      - 塞舌尔_0618006
-      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18
-      - 🇿🇦 github.com/freefq - 南非  5
-      - 🇳🇱 荷兰_0618012
-      - 🇿🇦 github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 2
-      - "DE_youtube@资源分享师_174\r"
-      - 🇫🇷 法国_0618021
-      - 未知_06183638
-      - 🇳🇱 荷兰_0618022
-      - 🇳🇱 荷兰_0618015
-      - 🇳🇱 荷兰_0618014
+      - 🇮🇱 github.com/freefq - 以色列  3
+      - 🇳🇱 荷兰_0618007
+      - 🇳🇱 荷兰_0618001
+      - 🇳🇱 荷兰_0618016
+      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18 2
+      - Relay_🇿🇦ZA-🇳🇱NL_90 |28.55Mb
+      - 🇳🇱 _NL_荷兰 3
       - 🇳🇱 荷兰_0618008
+      - 🇳🇱 荷兰_0618022
+      - 塞舌尔_0618006
+      - 🇳🇱 荷兰_0618012
+      - 🇳🇱 荷兰_0618018
+      - 🇳🇱 荷兰_0618014
+      - 🇳🇱 荷兰_0618015
+      - 🇳🇱 荷兰_0618060
+      - 🇳🇱 荷兰_0618013
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP-2|免费|1x
+      - 🇯🇵 JP-1|免费|1x
       - 🇭🇰 香港_0618009
-      - JP_149.50.71.124_0618202337dc-992trojan
-      - 🇯🇵 AWS日本3
-      - "JP_youtube@资源分享师_192\r"
-      - 🇯🇵 日本_0617069
       - 🇭🇰 AWS香港2
-      - 🇯🇵 日本-解锁-3
-      - 🇯🇵 日本-解锁-1
-      - 🇯🇵 JP-43.206.121.204-1912
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3
-      - 🇯🇵 日本_0617070
-      - 🇯🇵 JP-43.206.152.124-1817 2
+      - 🇯🇵 _JP_日本 2 3
+      - 🇯🇵 日本_0617069
+      - "JP_youtube@资源分享师_192\r"
+      - 🇯🇵 AWS日本3
+      - 🇯🇵 _JP_日本 4 2
       - 🇯🇵 日本_0618080
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 5
+      - JP_149.50.71.124_0618202337dc-992trojan
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3 2 2
       - 🇯🇵 日本_0618089
       - 🇯🇵 日本_0618092
-      - 🇰🇷 韩国_0618002
-      - HK_149.50.84.76_061820234bab-571trojan
+      - 🇯🇵 日本_0618007
+      - 🇯🇵 JP-43.206.121.204-1912
+      - 🇯🇵 日本_0617070
+      - 🇯🇵 JP-43.206.152.124-1817 2
       - 🇯🇵 日本_0618023
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_16
-      - 🇭🇰 HK-16.162.51.238-13486
       - 🇸🇬 新加坡_0618001
+      - HK_149.50.84.76_061820234bab-571trojan
       - 🇭🇰 HK(AzadNet.t.me)_012
+      - 🇭🇰 HK-16.162.51.238-13486
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_23
+      - 🇰🇷 韩国_0618002
+      - 🇸🇬 新加坡_0618711
       - 🇭🇰 _HK_香港_5
       - 🇭🇰 AWS香港4
-      - 🇸🇬 新加坡_0618002
-      - 🇸🇬 新加坡_0618513
       - 🇸🇬 SG(AzadNet.t.me)_011
-      - 🇸🇬 新加坡_0618499
-      - 🇸🇬 新加坡_0618169
-      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618168
       - 🇸🇬 新加坡_0618514
+      - 🇸🇬 新加坡_0618499
+      - 🇸🇬 新加坡_0618002
+      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618808
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_15 |28.23Mb
-      - 🇸🇬 新加坡_0618711
-      - 🇨🇳 台湾_0618001
-      - 🇨🇳 台湾_0618010
-      - 🇸🇬 新加坡_0618052
-      - 🇯🇵 日本【付费推荐：https//tt.vg/vip】146
+      - 🇸🇬 新加坡_0618513
+      - 🇸🇬 新加坡_0618169
       - HK_youtube@资源分享师_128
-      - 🇸🇬 新加坡_0618007
-      - 🇸🇬 新加坡_0618076
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_22 |28.23Mb
+      - 🇸🇬 新加坡_0618052
       - 🇸🇬 新加坡_0618155
-      - 🇰🇷 22,23|🇰🇷 韩国|@ripaojiedian
-      - 🇺🇸 美国_06185623
-      - 🇺🇸 美国_06181049
+      - 🇨🇳 台湾_0618010
+      - 🇰🇷 韩国_0618233
+      - 🇨🇳 台湾_0618001
+      - 🇺🇸 美国_0618086
+      - 🇺🇸 美国_0618102
       - 🇺🇸 美国_0618144
+      - 🇺🇸 美国_0618214
+      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_06181039
+      - 🇺🇸 美国_0618548
+      - 🇺🇸 美国_0618259
+      - 🇺🇸 美国_0618123
       - 🇺🇸 美国_06181107
-      - 🇺🇸 美国_0618460
-      - 🇺🇸 美国_0618730
-      - 🇺🇸 美国_06181072
-      - 🇺🇸 美国_06181081
-      - 🇺🇸 美国_0618555
-      - 🇺🇸 美国_0618397
-      - 🇺🇸 美国_06181035
       - 🇺🇸 美国_06181096
-      - 🇺🇸 美国_06181083
-      - 🇺🇸 美国_0618574
-      - 🇺🇸 美国_06181045
-      - 🇺🇸 美国_06181094
-      - 🇺🇸 美国_06181080
-      - 🇺🇸 美国_0618134
-      - 🇺🇸 美国_0618551
-      - 🇺🇸 美国_0618182
-      - 🇺🇸 美国_0618363
-      - 🇺🇸 美国_0618697
-      - 🇺🇸 美国_06181100
-      - GB_07
-      - 未知_0618006
+      - 🇺🇸 美国_0618653
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 美国_0618296
+      - 🇺🇸 美国_0618089
+      - 🇺🇸 美国_0618230
+      - 🇺🇸 美国_06186403
+      - 🇺🇸 美国_0618748
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 19|_🇺🇸_US_美国_由零開始_18___
+      - 🇺🇸 美国_0618257
+      - 🇺🇸 美国_0618294
+      - 🇺🇸 美国_06181085
+      - 🇬🇧 英国_0618012
+      - 🇫🇷 法国_0618001
+      - NL_149.50.75.207_061820234bab-169trojan
+      - Relay_🇮🇱IL-🇬🇧GB_17 | 9.98Mb
       - 🇬🇧 英国_0618014
       - 🇬🇧 英国_0618015
-      - 🇳🇱 荷兰_0618060
-      - 白嫖-041
-      - NL_149.50.75.207_061820234bab-169trojan
-      - Relay_🇮🇱IL-🇬🇧GB_12 | 9.98Mb
-      - 🇳🇱 荷兰_0618007
+      - FR_156.249.18.68_0618202337dc-777vmess
       - 🇫🇷 法国_0618002
-      - 🇿🇦 github.com/freefq - 南非  1
-      - 🇮🇱 github.com/freefq - 以色列  9
-      - 塞舌尔_0618006
-      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18
-      - 🇿🇦 github.com/freefq - 南非  5
-      - 🇳🇱 荷兰_0618012
-      - 🇿🇦 github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 2
-      - "DE_youtube@资源分享师_174\r"
-      - 🇫🇷 法国_0618021
-      - 未知_06183638
-      - 🇳🇱 荷兰_0618022
-      - 🇳🇱 荷兰_0618015
-      - 🇳🇱 荷兰_0618014
+      - 🇮🇱 github.com/freefq - 以色列  3
+      - 🇳🇱 荷兰_0618007
+      - 🇳🇱 荷兰_0618001
+      - 🇳🇱 荷兰_0618016
+      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18 2
+      - Relay_🇿🇦ZA-🇳🇱NL_90 |28.55Mb
+      - 🇳🇱 _NL_荷兰 3
       - 🇳🇱 荷兰_0618008
+      - 🇳🇱 荷兰_0618022
+      - 塞舌尔_0618006
+      - 🇳🇱 荷兰_0618012
+      - 🇳🇱 荷兰_0618018
+      - 🇳🇱 荷兰_0618014
+      - 🇳🇱 荷兰_0618015
+      - 🇳🇱 荷兰_0618060
+      - 🇳🇱 荷兰_0618013
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_06185623
-      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_0618086
+      - 🇺🇸 美国_0618102
       - 🇺🇸 美国_0618144
+      - 🇺🇸 美国_0618214
+      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_06181039
+      - 🇺🇸 美国_0618548
+      - 🇺🇸 美国_0618259
+      - 🇺🇸 美国_0618123
       - 🇺🇸 美国_06181107
-      - 🇺🇸 美国_0618460
-      - 🇺🇸 美国_0618730
-      - 🇺🇸 美国_06181072
-      - 🇺🇸 美国_06181081
-      - 🇺🇸 美国_0618555
-      - 🇺🇸 美国_0618397
-      - 🇺🇸 美国_06181035
       - 🇺🇸 美国_06181096
-      - 🇺🇸 美国_06181083
-      - 🇺🇸 美国_0618574
-      - 🇺🇸 美国_06181045
-      - 🇺🇸 美国_06181094
-      - 🇺🇸 美国_06181080
-      - 🇺🇸 美国_0618134
-      - 🇺🇸 美国_0618551
-      - 🇺🇸 美国_0618182
-      - 🇺🇸 美国_0618363
-      - 🇺🇸 美国_0618697
-      - 🇺🇸 美国_06181100
+      - 🇺🇸 美国_0618653
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 美国_0618296
+      - 🇺🇸 美国_0618089
+      - 🇺🇸 美国_0618230
+      - 🇺🇸 美国_06186403
+      - 🇺🇸 美国_0618748
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 19|_🇺🇸_US_美国_由零開始_18___
+      - 🇺🇸 美国_0618257
+      - 🇺🇸 美国_0618294
+      - 🇺🇸 美国_06181085
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP-2|免费|1x
+      - 🇯🇵 JP-1|免费|1x
       - 🇭🇰 香港_0618009
-      - JP_149.50.71.124_0618202337dc-992trojan
-      - 🇯🇵 AWS日本3
-      - "JP_youtube@资源分享师_192\r"
-      - 🇯🇵 日本_0617069
       - 🇭🇰 AWS香港2
-      - 🇯🇵 日本-解锁-3
-      - 🇯🇵 日本-解锁-1
-      - 🇯🇵 JP-43.206.121.204-1912
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3
-      - 🇯🇵 日本_0617070
-      - 🇯🇵 JP-43.206.152.124-1817 2
+      - 🇯🇵 _JP_日本 2 3
+      - 🇯🇵 日本_0617069
+      - "JP_youtube@资源分享师_192\r"
+      - 🇯🇵 AWS日本3
+      - 🇯🇵 _JP_日本 4 2
       - 🇯🇵 日本_0618080
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 5
+      - JP_149.50.71.124_0618202337dc-992trojan
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3 2 2
       - 🇯🇵 日本_0618089
       - 🇯🇵 日本_0618092
-      - 🇰🇷 韩国_0618002
-      - HK_149.50.84.76_061820234bab-571trojan
+      - 🇯🇵 日本_0618007
+      - 🇯🇵 JP-43.206.121.204-1912
+      - 🇯🇵 日本_0617070
+      - 🇯🇵 JP-43.206.152.124-1817 2
       - 🇯🇵 日本_0618023
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_16
-      - 🇭🇰 HK-16.162.51.238-13486
       - 🇸🇬 新加坡_0618001
+      - HK_149.50.84.76_061820234bab-571trojan
       - 🇭🇰 HK(AzadNet.t.me)_012
+      - 🇭🇰 HK-16.162.51.238-13486
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_23
+      - 🇰🇷 韩国_0618002
+      - 🇸🇬 新加坡_0618711
       - 🇭🇰 _HK_香港_5
       - 🇭🇰 AWS香港4
-      - 🇸🇬 新加坡_0618002
-      - 🇸🇬 新加坡_0618513
       - 🇸🇬 SG(AzadNet.t.me)_011
-      - 🇸🇬 新加坡_0618499
-      - 🇸🇬 新加坡_0618169
-      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618168
       - 🇸🇬 新加坡_0618514
+      - 🇸🇬 新加坡_0618499
+      - 🇸🇬 新加坡_0618002
+      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618808
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_15 |28.23Mb
-      - 🇸🇬 新加坡_0618711
-      - 🇨🇳 台湾_0618001
-      - 🇨🇳 台湾_0618010
-      - 🇸🇬 新加坡_0618052
-      - 🇯🇵 日本【付费推荐：https//tt.vg/vip】146
+      - 🇸🇬 新加坡_0618513
+      - 🇸🇬 新加坡_0618169
       - HK_youtube@资源分享师_128
-      - 🇸🇬 新加坡_0618007
-      - 🇸🇬 新加坡_0618076
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_22 |28.23Mb
+      - 🇸🇬 新加坡_0618052
       - 🇸🇬 新加坡_0618155
-      - 🇰🇷 22,23|🇰🇷 韩国|@ripaojiedian
+      - 🇨🇳 台湾_0618010
+      - 🇰🇷 韩国_0618233
+      - 🇨🇳 台湾_0618001
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - GB_07
-      - 未知_0618006
+      - 🇬🇧 英国_0618012
+      - 🇫🇷 法国_0618001
+      - NL_149.50.75.207_061820234bab-169trojan
+      - Relay_🇮🇱IL-🇬🇧GB_17 | 9.98Mb
       - 🇬🇧 英国_0618014
       - 🇬🇧 英国_0618015
-      - 🇳🇱 荷兰_0618060
-      - 白嫖-041
-      - NL_149.50.75.207_061820234bab-169trojan
-      - Relay_🇮🇱IL-🇬🇧GB_12 | 9.98Mb
-      - 🇳🇱 荷兰_0618007
+      - FR_156.249.18.68_0618202337dc-777vmess
       - 🇫🇷 法国_0618002
-      - 🇿🇦 github.com/freefq - 南非  1
-      - 🇮🇱 github.com/freefq - 以色列  9
-      - 塞舌尔_0618006
-      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18
-      - 🇿🇦 github.com/freefq - 南非  5
-      - 🇳🇱 荷兰_0618012
-      - 🇿🇦 github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 2
-      - "DE_youtube@资源分享师_174\r"
-      - 🇫🇷 法国_0618021
-      - 未知_06183638
-      - 🇳🇱 荷兰_0618022
-      - 🇳🇱 荷兰_0618015
-      - 🇳🇱 荷兰_0618014
+      - 🇮🇱 github.com/freefq - 以色列  3
+      - 🇳🇱 荷兰_0618007
+      - 🇳🇱 荷兰_0618001
+      - 🇳🇱 荷兰_0618016
+      - 🇳🇱 _🇳🇱_NL_荷兰_科网_18 2
+      - Relay_🇿🇦ZA-🇳🇱NL_90 |28.55Mb
+      - 🇳🇱 _NL_荷兰 3
       - 🇳🇱 荷兰_0618008
+      - 🇳🇱 荷兰_0618022
+      - 塞舌尔_0618006
+      - 🇳🇱 荷兰_0618012
+      - 🇳🇱 荷兰_0618018
+      - 🇳🇱 荷兰_0618014
+      - 🇳🇱 荷兰_0618015
+      - 🇳🇱 荷兰_0618060
+      - 🇳🇱 荷兰_0618013
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_06185623
-      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_0618086
+      - 🇺🇸 美国_0618102
       - 🇺🇸 美国_0618144
+      - 🇺🇸 美国_0618214
+      - 🇺🇸 美国_06181049
+      - 🇺🇸 美国_06181039
+      - 🇺🇸 美国_0618548
+      - 🇺🇸 美国_0618259
+      - 🇺🇸 美国_0618123
       - 🇺🇸 美国_06181107
-      - 🇺🇸 美国_0618460
-      - 🇺🇸 美国_0618730
-      - 🇺🇸 美国_06181072
-      - 🇺🇸 美国_06181081
-      - 🇺🇸 美国_0618555
-      - 🇺🇸 美国_0618397
-      - 🇺🇸 美国_06181035
       - 🇺🇸 美国_06181096
-      - 🇺🇸 美国_06181083
-      - 🇺🇸 美国_0618574
-      - 🇺🇸 美国_06181045
-      - 🇺🇸 美国_06181094
-      - 🇺🇸 美国_06181080
-      - 🇺🇸 美国_0618134
-      - 🇺🇸 美国_0618551
-      - 🇺🇸 美国_0618182
-      - 🇺🇸 美国_0618363
-      - 🇺🇸 美国_0618697
-      - 🇺🇸 美国_06181100
+      - 🇺🇸 美国_0618653
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 美国_0618296
+      - 🇺🇸 美国_0618089
+      - 🇺🇸 美国_0618230
+      - 🇺🇸 美国_06186403
+      - 🇺🇸 美国_0618748
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 19|_🇺🇸_US_美国_由零開始_18___
+      - 🇺🇸 美国_0618257
+      - 🇺🇸 美国_0618294
+      - 🇺🇸 美国_06181085
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -592,8 +587,8 @@ proxy-groups:
       - 🇭🇰 香港_0618009
       - 🇭🇰 AWS香港2
       - HK_149.50.84.76_061820234bab-571trojan
-      - 🇭🇰 HK-16.162.51.238-13486
       - 🇭🇰 HK(AzadNet.t.me)_012
+      - 🇭🇰 HK-16.162.51.238-13486
       - 🇭🇰 _HK_香港_5
       - 🇭🇰 AWS香港4
       - HK_youtube@资源分享师_128
@@ -604,19 +599,17 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡_0618001
-      - 🇸🇬 新加坡_0618002
-      - 🇸🇬 新加坡_0618513
+      - 🇸🇬 新加坡_0618711
       - 🇸🇬 SG(AzadNet.t.me)_011
-      - 🇸🇬 新加坡_0618499
-      - 🇸🇬 新加坡_0618169
-      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618168
       - 🇸🇬 新加坡_0618514
+      - 🇸🇬 新加坡_0618499
+      - 🇸🇬 新加坡_0618002
+      - 🇸🇬 新加坡_0618500
       - 🇸🇬 新加坡_0618808
-      - 🇸🇬 新加坡_0618711
+      - 🇸🇬 新加坡_0618513
+      - 🇸🇬 新加坡_0618169
       - 🇸🇬 新加坡_0618052
-      - 🇸🇬 新加坡_0618007
-      - 🇸🇬 新加坡_0618076
       - 🇸🇬 新加坡_0618155
   - name: 日本
     type: url-test
@@ -624,32 +617,33 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP-2|免费|1x
-      - JP_149.50.71.124_0618202337dc-992trojan
-      - 🇯🇵 AWS日本3
-      - "JP_youtube@资源分享师_192\r"
+      - 🇯🇵 JP-1|免费|1x
+      - 🇯🇵 _JP_日本 2 3
       - 🇯🇵 日本_0617069
-      - 🇯🇵 日本-解锁-3
-      - 🇯🇵 日本-解锁-1
-      - 🇯🇵 JP-43.206.121.204-1912
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3
-      - 🇯🇵 日本_0617070
-      - 🇯🇵 JP-43.206.152.124-1817 2
+      - "JP_youtube@资源分享师_192\r"
+      - 🇯🇵 AWS日本3
+      - 🇯🇵 _JP_日本 4 2
       - 🇯🇵 日本_0618080
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 5
+      - JP_149.50.71.124_0618202337dc-992trojan
+      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 3 2 2
       - 🇯🇵 日本_0618089
       - 🇯🇵 日本_0618092
+      - 🇯🇵 日本_0618007
+      - 🇯🇵 JP-43.206.121.204-1912
+      - 🇯🇵 日本_0617070
+      - 🇯🇵 JP-43.206.152.124-1817 2
       - 🇯🇵 日本_0618023
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_15 |28.23Mb
-      - 🇯🇵 日本【付费推荐：https//tt.vg/vip】146
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_22 |28.23Mb
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_16
-      - 🇨🇳 台湾_0618001
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_23
       - 🇨🇳 台湾_0618010
+      - 🇨🇳 台湾_0618001
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -657,7 +651,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 韩国_0618002
-      - 🇰🇷 22,23|🇰🇷 韩国|@ripaojiedian
+      - 🇰🇷 韩国_0618233
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
