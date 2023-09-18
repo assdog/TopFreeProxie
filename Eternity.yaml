@@ -5,23 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 _KR_韩国_1, server: 43.202.42.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇯🇵 8,14|🇯🇵 Japan 02 @nodpai", server: 18.183.242.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港 021, server: 43.229.154.12, port: 39923, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: fhc.kxking.eu.org}}}
+  - {name: "🇯🇵 8,14|🇯🇵 Japan 01 @nodpai", server: 54.250.93.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾, server: wqryo-1075-v2-0.d-hinet-02.ddll.bond, port: 888, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
   - {name: 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.203, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧, server: 52.197.66.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /home, headers: {Host: ca.0112233.xyz}}}
-  - {name: 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧, server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧, server: jparm.fineyoo.cf, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.cf}}}
   - {name: 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧, server: jparm.fineyoo.ml, port: 443, type: vmess, uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.ml}}}
   - {name: 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧, server: jpamd.fineyoo.ml, port: 443, type: vmess, uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jpamd.fineyoo.ml}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /408, headers: {Host: amdkr.ptuu.ga}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /987, headers: {Host: amdkr.ptuu.ml}}}
   - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: ihine-1083-v2-1.r-kcd-b.tuil.xyz, port: 29968, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
+  - {name: 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧, server: jparm.fineyoo.cf, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.cf}}}
   - {name: 🇭🇰 _HK_香港, server: 156.245.8.144, port: 42914, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 _SG_新加坡, server: 5.44.249.44, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 2, server: 5.44.249.52, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇰🇷 _KR_韩国, server: ko1.lianpi.xyz, port: 51256, type: trojan, password: a0043275-5033-4923-9f22-b2f466a8794a, sni: apple.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 3, server: 5.44.249.53, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: ufxeq-1080-tr-9.d-kcd.tuil.xyz, port: 39929, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: edge.cjhh.mom, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 4, server: 5.44.249.50, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本, server: 103.168.155.69, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB, server: sz.cny.page, port: 11536, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
@@ -35,6 +37,7 @@ proxies:
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB, server: 03.xn--8fr22cd4k1m9c.cn, port: 44521, type: ss, cipher: aes-128-gcm, password: de467768-8540-43de-88a4-7299a2bbeaec}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: bb0f1568-4cb3-490d-82c4-f654455cd07c}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB, server: zjcu.lele233.top, port: 26111, type: ss, cipher: chacha20-ietf-poly1305, password: fd6b031e-7b35-4716-8e53-060c755b5259}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB, server: iepl.linghun3.xyz, port: 39999, type: ss, cipher: aes-256-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB, server: hk3.linghun3.xyz, port: 40002, type: ss, cipher: aes-256-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB, server: gdcm.v-too.cloud, port: 37532, type: ss, cipher: chacha20-ietf-poly1305, password: 08c0041e-105e-43b7-9627-b28e8f62fd00}
   - {name: 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB, server: zf.678889.xyz, port: 44012, type: ss, cipher: chacha20-ietf-poly1305, password: f4ef757a-3d0c-4126-b409-7675f7da8a6c}
@@ -46,21 +49,18 @@ proxies:
   - {name: 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB, server: 805tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 805tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB, server: 0309tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 0309tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB, server: 419tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 419tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 625tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 01 TG@SSRSUB, server: hk19.microsoftjs.top, port: 443, type: trojan, password: a21e5380-7711-4c6d-af44-e6210e5436af, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 05 TG@SSRSUB, server: 16.162.44.241, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_90 |18.11Mb, server: usa3.connecton.surf, port: 443, type: trojan, password: 3550ce3dec, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大 170, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 🇺🇸 美国 069, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
-  - {name: 🇺🇸 12|🇺🇸 美国 330, server: 198.2.192.152, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694604820478, headers: {Host: www.78280643.xyz}}}
-  - {name: 🇺🇸 美国 080, server: cloudconebbb.gorgorchicken.one, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconebbb, headers: {Host: cloudconebbb.gorgorchicken.one}}}
-  - {name: 🇺🇸 美国_0918096, server: 103.149.144.45, port: 19482, type: vmess, uuid: 50a170b7-1198-4603-e51a-0da28605d9e2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 068, server: franc.digires.shop, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}}
-  - {name: 🇨🇦 加拿大 078, server: amsterdam.kotick.site, port: 443, type: vmess, uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: speedtest, headers: {Host: amsterdam.kotick.site}}}
-  - {name: 🇺🇸 12|🇺🇸 美国 259, server: amsterdam.kotick.site, port: 443, type: vmess, uuid: 9f858ce1-7e02-4863-aa24-d90f8d3437d7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: speedtest, headers: {Host: amsterdam.kotick.site}}}
-  - {name: 🇺🇸 _US_美国_12_4@29, server: yuumv-1088-tr-0.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: s3.cjhh.beauty, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_0918005, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}}
-  - {name: 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_92 |16.36Mb, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: "625tw.ljydw.top#%F0%9F%87%A8%F0%9F%87%B3%20Taiwan%28ChatGPT%29%2029%20TG%40SSRSUBtrojan://3550ce3dec@usa3.connecton.surf:443?allowInsecure=0", skip-cert-verify: false}
+  - {name: "🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...", server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
+  - {name: 🇺🇸 _US_美国_fd_58, server: 199.188.109.229, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694516064215, headers: {Host: www.26167530.xyz}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧, server: 167.88.62.68, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧, server: 38.64.138.53, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg}
+  - {name: 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4}
+  - {name: 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /home, headers: {Host: ca.0112233.xyz}}}
+  - {name: 🇺🇸 美国-vmess-gaio.miaoge110.cf443-被墙-中转104.28.205.111-解锁美国地区NF非自制剧, server: gaio.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jcnf, headers: {Host: gaio.miaoge110.cf}}}
+  - {name: 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2, server: jparm.fineyoo.cf, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.cf}}}
+  - {name: 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2, server: jparm.fineyoo.ml, port: 443, type: vmess, uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.ml}}}
+  - {name: 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2, server: jpamd.fineyoo.ml, port: 443, type: vmess, uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jpamd.fineyoo.ml}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /408, headers: {Host: amdkr.ptuu.ga}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /987, headers: {Host: amdkr.ptuu.ml}}}
   - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
@@ -70,32 +70,33 @@ proxies:
   - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
   - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
+  - {name: 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧, server: 35.91.237.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.31.16.69, port: 2083, type: vmess, uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: germany-one.port888.site}}}
   - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 2, server: 104.31.16.71, port: 2083, type: vmess, uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: germany-one.port888.site}}}
-  - {name: 🇩🇪 德国_0918009, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian, server: 54.238.87.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 未知_0918037, server: 23.158.56.89, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰 006, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
-  - {name: 🇳🇱 荷兰_0918005, server: vc-185.162.235.250.nip.io, port: 2054, type: vmess, uuid: 6f117af4-cd52-40f8-9236-7c5e3f357cc8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /socket.io, headers: {Host: vc-185.162.235.250.nip.io}}}
-  - {name: 🇦🇺 澳大利亚_0918007, server: au1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b3703935-6e7b-4012-ad7e-b44ccddc776f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: au1-vmess.greenssh.xyz}}}
+  - {name: 🇩🇪 德国_0918036, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
+  - {name: "🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2", server: 54.250.93.125, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇮🇩 印度尼西亚_0918004, server: 103.167.35.12, port: 80, type: vmess, uuid: 781adf87-0afa-420c-875f-879162a2bce1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇫🇷 法国_0918003, server: uk2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 2076df30-81e3-4312-840b-3e1462c0b85e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk2-vmess.greenssh.xyz}}}
   - {name: 🇬🇧 英国-ss-83.229.73.6050003-被墙-直连-解锁以色列地区NF非自制剧, server: 83.229.73.60, port: 50003, type: ss, cipher: aes-256-cfb, password: "!<str>"}
+  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
   - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
   - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
   - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 127, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: a0043275-5033-4923-9f22-b2f466a8794a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇳🇱 _NL_荷兰, server: 154.85.1.243, port: 41282, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124, server: 46.182.107.82, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.82}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 公益机场https//bit.ly/3BPeo5G, server: sub.ssrsub.com, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107, server: 52.58.249.78, port: 57824, type: ss, cipher: chacha20-ietf-poly1305, password: pryhyxya}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106, server: 104.168.87.190, port: 1234, type: vmess, uuid: df2bc8f4-fc1a-4f4e-b0e5-fd49055b32a9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bb, headers: {Host: 104.168.87.190}}}
   - {name: "@SSRSUB-V01-付费推荐dlj.tf/ssrsub", server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
   - {name: "@SSRSUB-V02-付费推荐dlj.tf/ssrsub", server: 203.23.104.190, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}}
   - {name: "@SSRSUB-V03-付费推荐dlj.tf/ssrsub", server: 203.23.106.157, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}}
   - {name: "@SSRSUB-V04-付费推荐dlj.tf/ssrsub", server: 172.67.164.48, port: 80, type: vmess, uuid: ad509165-57e6-48e4-9b04-48eedec7ff36, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}}
   - {name: "@SSRSUB-V05-付费推荐dlj.tf/ssrsub", server: 23.227.39.111, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: "@SSRSUB-V07-付费推荐dlj.tf/ssrsub", server: 104.21.67.88, port: 443, type: vmess, uuid: 0fdd476f-57b1-4787-bbfa-739aaaf4a798, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /run, headers: {Host: 4d4m4qj.quickerlink.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,23 +112,25 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 8,14|🇯🇵 Japan 02 @nodpai
+      - 🇭🇰 香港 021
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai
+      - 🇨🇳 台湾
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇭🇰 _HK_香港
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 2
       - 🇰🇷 _KR_韩国
       - 🇸🇬 _SG_新加坡 3
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
@@ -141,6 +144,7 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
@@ -152,21 +156,18 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_90 |18.11Mb
-      - 🇨🇦 加拿大 170
-      - 🇺🇸 美国 069
-      - 🇺🇸 12|🇺🇸 美国 330
-      - 🇺🇸 美国 080
-      - 🇺🇸 美国_0918096
-      - 🇺🇸 美国 068
-      - 🇨🇦 加拿大 078
-      - 🇺🇸 12|🇺🇸 美国 259
-      - 🇺🇸 _US_美国_12_4@29
-      - 🇺🇸 美国_0918005
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_92 |16.36Mb
+      - 🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...
+      - 🇺🇸 _US_美国_fd_58
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇺🇸 美国-vmess-gaio.miaoge110.cf443-被墙-中转104.28.205.111-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
       - US_10
@@ -176,32 +177,33 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
+      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇩🇪 德国_0918009
-      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
       - 未知_0918037
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰 006
-      - 🇳🇱 荷兰_0918005
-      - 🇦🇺 澳大利亚_0918007
+      - 🇩🇪 德国_0918036
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇮🇩 印度尼西亚_0918004
+      - 🇫🇷 法国_0918003
       - 🇬🇧 英国-ss-83.229.73.6050003-被墙-直连-解锁以色列地区NF非自制剧
+      - ZZ_20
       - ZZ_21
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 127
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
       - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡
       - 🇳🇱 _NL_荷兰
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 公益机场https//bit.ly/3BPeo5G
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
       - "@SSRSUB-V01-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V02-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V03-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V04-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V05-付费推荐dlj.tf/ssrsub"
+      - "@SSRSUB-V07-付费推荐dlj.tf/ssrsub"
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,23 +254,25 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 8,14|🇯🇵 Japan 02 @nodpai
+      - 🇭🇰 香港 021
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai
+      - 🇨🇳 台湾
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇭🇰 _HK_香港
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 2
       - 🇰🇷 _KR_韩国
       - 🇸🇬 _SG_新加坡 3
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
@@ -282,6 +286,7 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
@@ -293,21 +298,18 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_90 |18.11Mb
-      - 🇨🇦 加拿大 170
-      - 🇺🇸 美国 069
-      - 🇺🇸 12|🇺🇸 美国 330
-      - 🇺🇸 美国 080
-      - 🇺🇸 美国_0918096
-      - 🇺🇸 美国 068
-      - 🇨🇦 加拿大 078
-      - 🇺🇸 12|🇺🇸 美国 259
-      - 🇺🇸 _US_美国_12_4@29
-      - 🇺🇸 美国_0918005
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_92 |16.36Mb
+      - 🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...
+      - 🇺🇸 _US_美国_fd_58
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇺🇸 美国-vmess-gaio.miaoge110.cf443-被墙-中转104.28.205.111-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
       - US_10
@@ -317,55 +319,58 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
+      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇩🇪 德国_0918009
-      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
       - 未知_0918037
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰 006
-      - 🇳🇱 荷兰_0918005
-      - 🇦🇺 澳大利亚_0918007
+      - 🇩🇪 德国_0918036
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇮🇩 印度尼西亚_0918004
+      - 🇫🇷 法国_0918003
       - 🇬🇧 英国-ss-83.229.73.6050003-被墙-直连-解锁以色列地区NF非自制剧
+      - ZZ_20
       - ZZ_21
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 127
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
       - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡
       - 🇳🇱 _NL_荷兰
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 公益机场https//bit.ly/3BPeo5G
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
       - "@SSRSUB-V01-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V02-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V03-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V04-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V05-付费推荐dlj.tf/ssrsub"
+      - "@SSRSUB-V07-付费推荐dlj.tf/ssrsub"
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 8,14|🇯🇵 Japan 02 @nodpai
+      - 🇭🇰 香港 021
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai
+      - 🇨🇳 台湾
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇭🇰 _HK_香港
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 2
       - 🇰🇷 _KR_韩国
       - 🇸🇬 _SG_新加坡 3
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
@@ -379,6 +384,7 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
@@ -390,21 +396,18 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_90 |18.11Mb
-      - 🇨🇦 加拿大 170
-      - 🇺🇸 美国 069
-      - 🇺🇸 12|🇺🇸 美国 330
-      - 🇺🇸 美国 080
-      - 🇺🇸 美国_0918096
-      - 🇺🇸 美国 068
-      - 🇨🇦 加拿大 078
-      - 🇺🇸 12|🇺🇸 美国 259
-      - 🇺🇸 _US_美国_12_4@29
-      - 🇺🇸 美国_0918005
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_92 |16.36Mb
+      - 🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...
+      - 🇺🇸 _US_美国_fd_58
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇺🇸 美国-vmess-gaio.miaoge110.cf443-被墙-中转104.28.205.111-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
       - US_10
@@ -414,56 +417,57 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
+      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇩🇪 德国_0918009
-      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
       - 未知_0918037
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰 006
-      - 🇳🇱 荷兰_0918005
-      - 🇦🇺 澳大利亚_0918007
+      - 🇩🇪 德国_0918036
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇮🇩 印度尼西亚_0918004
+      - 🇫🇷 法国_0918003
       - 🇬🇧 英国-ss-83.229.73.6050003-被墙-直连-解锁以色列地区NF非自制剧
+      - ZZ_20
       - ZZ_21
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 127
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
       - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡
       - 🇳🇱 _NL_荷兰
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 公益机场https//bit.ly/3BPeo5G
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
       - "@SSRSUB-V01-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V02-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V03-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V04-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V05-付费推荐dlj.tf/ssrsub"
+      - "@SSRSUB-V07-付费推荐dlj.tf/ssrsub"
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_90 |18.11Mb
-      - 🇨🇦 加拿大 170
-      - 🇺🇸 美国 069
-      - 🇺🇸 12|🇺🇸 美国 330
-      - 🇺🇸 美国 080
-      - 🇺🇸 美国_0918096
-      - 🇺🇸 美国 068
-      - 🇨🇦 加拿大 078
-      - 🇺🇸 12|🇺🇸 美国 259
-      - 🇺🇸 _US_美国_12_4@29
-      - 🇺🇸 美国_0918005
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_92 |16.36Mb
+      - 🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...
+      - 🇺🇸 _US_美国_fd_58
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇺🇸 美国-vmess-gaio.miaoge110.cf443-被墙-中转104.28.205.111-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
       - US_10
@@ -473,6 +477,7 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
+      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
   - name: 🌏 东亚地区
@@ -481,23 +486,25 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 8,14|🇯🇵 Japan 02 @nodpai
+      - 🇭🇰 香港 021
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai
+      - 🇨🇳 台湾
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇭🇰 _HK_香港
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 2
       - 🇰🇷 _KR_韩国
       - 🇸🇬 _SG_新加坡 3
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
       - 🇸🇬 _SG_新加坡 4
       - 🇯🇵 _JP_日本
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
@@ -511,6 +518,7 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
@@ -522,18 +530,22 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
-      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 8,14|🇯🇵 Japan 02 @nodpai
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
@@ -545,6 +557,7 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
@@ -556,55 +569,55 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇩🇪 德国_0918009
-      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...
       - 未知_0918037
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰 006
-      - 🇳🇱 荷兰_0918005
-      - 🇦🇺 澳大利亚_0918007
+      - 🇩🇪 德国_0918036
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇮🇩 印度尼西亚_0918004
+      - 🇫🇷 法国_0918003
       - 🇬🇧 英国-ss-83.229.73.6050003-被墙-直连-解锁以色列地区NF非自制剧
+      - ZZ_20
       - ZZ_21
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 127
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
       - 🇱🇺 _CN_中国->🇱🇺_LU_卢森堡
       - 🇳🇱 _NL_荷兰
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 公益机场https//bit.ly/3BPeo5G
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
       - "@SSRSUB-V01-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V02-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V03-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V04-付费推荐dlj.tf/ssrsub"
       - "@SSRSUB-V05-付费推荐dlj.tf/ssrsub"
+      - "@SSRSUB-V07-付费推荐dlj.tf/ssrsub"
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_90 |18.11Mb
-      - 🇺🇸 美国 069
-      - 🇺🇸 12|🇺🇸 美国 330
-      - 🇺🇸 美国 080
-      - 🇺🇸 美国_0918096
-      - 🇺🇸 美国 068
-      - 🇺🇸 12|🇺🇸 美国 259
-      - 🇺🇸 _US_美国_12_4@29
-      - 🇺🇸 美国_0918005
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_92 |16.36Mb
+      - 🇺🇸 12|🇺🇸 7,8|🇺🇸 United States 44 @no...
+      - 🇺🇸 _US_美国_fd_58
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
+      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇺🇸 美国-vmess-gaio.miaoge110.cf443-被墙-中转104.28.205.111-解锁美国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2
       - US_10
@@ -614,6 +627,7 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
+      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
   - name: 香港
@@ -622,51 +636,58 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 香港 021
       - 🇭🇰 _HK_香港
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 24 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 3
       - 🇸🇬 _SG_新加坡 4
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 8,14|🇯🇵 Japan 02 @nodpai
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
       - 🇯🇵 _JP_日本
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
-      - 🇯🇵 14|🇯🇵 东京特殊|@ripaojiedian
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2
+      - 🇯🇵 8,14|🇯🇵 Japan 01 @nodpai 2
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 台湾
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
@@ -680,14 +701,12 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国_1
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇰🇷 _KR_韩国
